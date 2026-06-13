@@ -237,12 +237,12 @@ Generated visualizations:
 <table>
 <tr>
 <td align="center">
-<img src="static/charts/brightness.png.jpg" width="300"><br>
+<img src="static/charts/brightness.png" width="300"><br>
 Brightness
 </td>
 
 <td align="center">
-<img src="static/charts/grade.png.jpg" width="300"><br>
+<img src="static/charts/grade.png" width="300"><br>
 Grade
 </td>
 </tr>
