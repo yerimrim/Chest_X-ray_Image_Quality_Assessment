@@ -110,11 +110,11 @@ templates/
 ├── index.html
 └── result.html
 
-outputs/
+outputs/                 # Generated after execution
 └── quality_report.pdf
 
 static/
-├── charts/
+├── charts/              # Generated after execution
 │   ├── brightness.png
 │   ├── grade.png
 │   ├── sharpness.png
@@ -203,38 +203,32 @@ http://127.0.0.1:5000
 
 ---
 
-## Sample Inputs
+## Sample Inputs & Outputs
 
 Example chest X-ray images:
+<p align="center">
+  <img src="sample/sample1_input/blurry1.jpg" width="45%">
+  <img src="sample/sample1_input/bright1.jpg" width="45%">
+</p>
 
-### Blurry Input Image
-![Sample Image blurry1](sample/sample1_input/blurry1.jpg)
-
-### Bright Input Image
-![Sample Image bright1](sample/sample1_input/bright1.jpg)
-
-### Dark Input Image
-![Sample Image dark1](sample/sample1_input/dark1.jpg)
-
-### Clear Input Imgae
-![Sample Image clear1](sample/sample1_input/clear1.jpeg)
+<p align="center">
+  <img src="sample/sample1_input/dark1.jpg" width="45%">
+  <img src="sample/sample1_input/clear1.jpeg" width="45%">
+</p>
 
 ---
 
-## Sample Outputs
-
 Generated visualizations:
-### Brightness
-![Sample Image brightness](static/charts/brightness.png)
 
-### Grade
-![Sample_Image_grade](static/charts/grade.png)
+<p align="center">
+  <img src="static/charts/brightness.png" width="45%">
+  <img src="static/charts/grade.png" width="45%">
+</p>
 
-### Sharpness
-![Sample_Image Sharpness](static/charts/sharpness.png)
-
-### Status
-![Sample_Image_Status](static/charts/status.png)
+<p align="center">
+  <img src="static/charts/sharpness.png" width="45%">
+  <img src="static/charts/status.png" width="45%">
+</p>
 
 
 Generated report:
