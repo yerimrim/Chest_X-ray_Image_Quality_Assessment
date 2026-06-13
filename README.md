@@ -261,11 +261,3 @@ If you would like to improve this project:
 2. Create a new feature branch.
 3. Commit your changes with clear commit messages.
 4. Submit a pull request describing your modifications.
-
-Please ensure that your code is well-documented and tested before submission.
-
----
-
-## Acknowledgements
-
-This project was developed as part of the **Introduction to Open Source Software** course final assignment.
