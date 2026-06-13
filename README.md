@@ -207,10 +207,17 @@ http://127.0.0.1:5000
 
 Example chest X-ray images:
 
-* ![Sample Image blurry1](sample/sample1_input/blurry1.jpg)
-* ![Sample Image bright1](sample/sample1_input/bright1.jpg)
-* ![Sample Image dark1](sample/sample1_input/dark1.jpg)
-* ![Sample Image clear1](sample/sample1_input/clear1.jpeg)
+**blurry**
+![Sample Image blurry1](sample/sample1_input/blurry1.jpg)
+
+**bright**
+![Sample Image bright1](sample/sample1_input/bright1.jpg)
+
+**dark**
+![Sample Image dark1](sample/sample1_input/dark1.jpg)
+
+**clear**
+![Sample Image clear1](sample/sample1_input/clear1.jpeg)
 
 ---
 
