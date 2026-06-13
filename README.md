@@ -254,24 +254,24 @@ Generated visualizations showing image quality assessment results:
 <table>
 <tr>
 <td align="center">
-<img src="sample/sample1_ouput/brightness.png" width="300"><br>
+<img src="sample/sample1_output/brightness.png" width="300"><br>
 Brightness
 </td>
 
 <td align="center">
-<img src="sample/sample1_ouput/grade.png" width="300"><br>
+<img src="sample/sample1_output/grade.png" width="300"><br>
 Grade
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="sample/sample1_ouput/sharpness.png" width="300"><br>
+<img src="sample/sample1_output/sharpness.png" width="300"><br>
 Sharpness
 </td>
 
 <td align="center">
-<img src="sample/sample1_ouput/status.png" width="300"><br>
+<img src="sample/sample1_output/status.png" width="300"><br>
 Status
 </td>
 </tr>
