@@ -234,17 +234,31 @@ Clear
 ---
 
 Generated visualizations:
+<table>
+<tr>
+<td align="center">
+<img src="static/charts/brightness.png.jpg" width="300"><br>
+Brightness
+</td>
 
-<p align="center">
-  <img src="static/charts/brightness.png" width="45%">
-  <img src="static/charts/grade.png" width="45%">
-</p>
+<td align="center">
+<img src="static/charts/grade.png.jpg" width="300"><br>
+Grade
+</td>
+</tr>
 
-<p align="center">
-  <img src="static/charts/sharpness.png" width="45%">
-  <img src="static/charts/status.png" width="45%">
-</p>
+<tr>
+<td align="center">
+<img src="static/charts/sharpness.png" width="300"><br>
+Sharpness
+</td>
 
+<td align="center">
+<img src="static/charts/status.png" width="300"><br>
+Status
+</td>
+</tr>
+</table>
 
 Generated report:
 [View Sample PDF Quality Report](sample/sample1_output/quality_report.pdf)
