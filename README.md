@@ -81,7 +81,7 @@ Quality grades are assigned based on the total score:
 
 ## Workflow
 
-The following workflow illustrates the overall process of the system.
+The following workflow illustrates how the system analyzes chest X-ray images, performs quality assessment, generates visualizations, and creates a downloadable PDF report.
 
 ![Workflow](workflow/workflow.png)
 
@@ -136,6 +136,9 @@ static/
 │   └── style.css
 └── js/
     └── preview.js
+
+workflow/
+└── workflow.png
 
 requirements.txt
 README.md
