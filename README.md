@@ -75,7 +75,7 @@ Quality grades are assigned based on the total score:
 
 ---
 
-## Technologies and Libraries
+## Libraries and Technologies
 
 | Library / Tool          | Purpose                                                            |
 | ----------------------- | ------------------------------------------------------------------ |
