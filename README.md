@@ -136,8 +136,8 @@ LICENSE
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd Chest-Xray-Image-Quality-Assessment
+git clone https://github.com/yerimrim/Chest_X-ray_Image_Quality_Assessment
+cd Chest_X-ray_Image_Quality_Assessment
 ```
 
 ### 2. Create a Virtual Environment
