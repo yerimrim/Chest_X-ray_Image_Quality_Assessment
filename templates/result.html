@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<div class="container">
+<h1>Analysis Results</h1>
+
+<div class="summary">
+<div class="card">
+    <h3>Total Images</h3>
+    <p>{{ summary.total }}</p>
+</div>
+
+<div class="card accept">
+    <h3>Accepted</h3>
+    <p>{{ summary.accept }}</p>
+</div>
+
+<div class="card reject">
+    <h3>Rejected</h3>
+    <p>{{ summary.reject }}</p>
+</div>
+
+<div class="card">
+    <h3>Accept Rate</h3>
+    <p>{{ summary.accept_rate }}%</p>
+</div>
+</div>
+
+<div class="metrics">
+<p>Average Brightness:<strong>{{ summary.avg_brightness }}</strong></p>
+<p>Average Contrast:<strong>{{ summary.avg_contrast }}</strong></p>
+<p>Average Sharpness:<strong>{{ summary.avg_sharpness }}</strong></p>
+</div>
+
+<h2>Visualizations</h2>
+
+<div class="charts">
+<img src="{{ url_for('static', filename='charts/grade.png') }}" alt="Grade Distribution">
+<img src="{{ url_for('static', filename='charts/status.png') }}" alt="Status Distribution">
+<img src="{{ url_for('static', filename='charts/brightness.png') }}" alt="Brightness Histogram">
+<img src="{{ url_for('static', filename='charts/sharpness.png') }}" alt="Sharpness Histogram">
+</div>
+
+<h2>Image Analysis Details</h2>
+
+<table>
+<thead>
+<tr>
+<th>Image</th>
+<th>Grade</th>
+<th>Status</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+
+{% for row in tables %}
+<tr>
+<td>{{ row.image_name }}</td>
+<td>{{ row.grade }}</td>
+<td>
+
+{% if row.status == "Accept" %}
+<span class="status accept-badge">✓ Accept</span>
+{% else %}
+<span class="status reject-badge">✗ Reject</span>
+{% endif %}
+</td>
+<td>{{ row.reason }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<div class="button-group">
+
+<a href="{{ url_for('download') }}">
+<button class="download-btn">Download PDF Report</button>
+</a>
+
+<a href="{{ url_for('home') }}">
+<button class="back-btn">Analyze More Images</button>
+</a>
+
+</div>
+</div>
+
+</body>
+
+</html>

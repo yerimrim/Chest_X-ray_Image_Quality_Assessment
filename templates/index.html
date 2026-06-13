@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Image Quality Assessment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<div class="container">
+    <h1>Medical Image Quality Assessment</h1>
+    <p class="description">Upload one or more chest X-ray images to assess image quality.</p>
+
+    {% if error %}
+    <div class="error-message">{{ error }}</div>
+    {% endif %}
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+        <input type="file" id="images" name="images" multiple accept=".png,.jpg,.jpeg" required>
+        <button type="submit">Analyze Images</button>
+    </form>
+
+    <div id="preview-container">
+        <h2>Selected Images</h2>
+        <div id="preview"></div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/preview.js') }}"></script>
+
+</body>
+
+</html>
