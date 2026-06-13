@@ -127,6 +127,7 @@ static/
 requirements.txt
 README.md
 LICENSE
+short_report.pdf
 ```
 
 ---
