@@ -34,13 +34,13 @@ A web-based system for chest X-ray image quality assessment. The system automati
 
 #### Quality Decision Logic
 
-**Accept:** All quality criteria are satisfied.
+Accept: All quality criteria are satisfied.
 
 * 70 ≤ Brightness ≤ 180
 * Contrast ≥ 40
 * Sharpness ≥ 100
 
-**Reject:** One or more quality criteria are not satisfied.
+Reject: One or more quality criteria are not satisfied.
 
 * Brightness < 70 → Too Dark
 * Brightness > 180 → Too Bright
@@ -49,7 +49,7 @@ A web-based system for chest X-ray image quality assessment. The system automati
 
 #### Grade Assignment
 
-**Score Calculation:** Brightness (30) + Contrast (30) + Sharpness (40)
+Score Calculation: Brightness (30) + Contrast (30) + Sharpness (40)
 
 Quality grades are assigned based on the total score:
 
