@@ -239,7 +239,7 @@ Generated visualizations:
 
 Generated report:
 ### Quality_Report
-![quality_report](sample/sample1_output/quality_report.pdf)
+[View Sample PDF Quality Report](sample/sample1_output/quality_report.pdf)
 
 ---
 
