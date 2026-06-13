@@ -1,5 +1,9 @@
 # Chest X-ray Image Quality Assessment
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A web-based system for chest X-ray image quality assessment. The system automatically analyzes uploaded X-ray images using brightness, contrast, and sharpness metrics, generates visual reports, and provides downloadable PDF reports for documentation and review.
 
 ---
@@ -171,7 +175,7 @@ pip install -r requirements.txt
 
 ## Requirements
 
-* Python 3.10.19
+* Python 3.10+
 
 Required packages:
 
@@ -234,7 +238,7 @@ Clear
 
 ---
 
-Generated visualizations:
+Generated visualizations showing image quality assessment results:
 <table>
 <tr>
 <td align="center">
@@ -261,7 +265,7 @@ Status
 </tr>
 </table>
 
-Generated report:
+### Generated report
 [View Sample PDF Quality Report](sample/sample1_output/quality_report.pdf)
 
 ---
