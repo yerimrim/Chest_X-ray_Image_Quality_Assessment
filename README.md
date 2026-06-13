@@ -206,16 +206,31 @@ http://127.0.0.1:5000
 ## Sample Inputs & Outputs
 
 Example chest X-ray images:
-<p align="center">
-  <img src="sample/sample1_input/blurry1.jpg" width="45%">
-  <img src="sample/sample1_input/bright1.jpg" width="45%">
-</p>
+<table>
+<tr>
+<td align="center">
+<img src="sample/sample1_input/blurry1.jpg" width="300"><br>
+Blurry
+</td>
 
-<p align="center">
-  <img src="sample/sample1_input/dark1.jpg" width="45%">
-  <img src="sample/sample1_input/clear1.jpeg" width="45%">
-</p>
+<td align="center">
+<img src="sample/sample1_input/bright1.jpg" width="300"><br>
+Bright
+</td>
+</tr>
 
+<tr>
+<td align="center">
+<img src="sample/sample1_input/dark1.jpg" width="300"><br>
+Dark
+</td>
+
+<td align="center">
+<img src="sample/sample1_input/clear1.jpeg" width="300"><br>
+Clear
+</td>
+</tr>
+</table>
 ---
 
 Generated visualizations:
@@ -232,7 +247,6 @@ Generated visualizations:
 
 
 Generated report:
-### Quality_Report
 [View Sample PDF Quality Report](sample/sample1_output/quality_report.pdf)
 
 ---
