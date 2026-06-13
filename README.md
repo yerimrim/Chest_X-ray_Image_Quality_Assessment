@@ -79,6 +79,15 @@ Quality grades are assigned based on the total score:
 
 ---
 
+## Workflow
+
+The following workflow illustrates the overall process of the system.
+
+![Workflow](workflow/workflow.png)
+
+
+---
+
 ## Libraries and Technologies
 
 | Library / Tool          | Purpose                                                            |
@@ -175,7 +184,7 @@ pip install -r requirements.txt
 
 ## Requirements
 
-* Python 3.10+
+* Python 3.10.19
 
 Required packages:
 
@@ -242,24 +251,24 @@ Generated visualizations showing image quality assessment results:
 <table>
 <tr>
 <td align="center">
-<img src="static/charts/brightness.png" width="300"><br>
+<img src="sample/sample1_ouput/brightness.png" width="300"><br>
 Brightness
 </td>
 
 <td align="center">
-<img src="static/charts/grade.png" width="300"><br>
+<img src="sample/sample1_ouput/grade.png" width="300"><br>
 Grade
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="static/charts/sharpness.png" width="300"><br>
+<img src="sample/sample1_ouput/sharpness.png" width="300"><br>
 Sharpness
 </td>
 
 <td align="center">
-<img src="static/charts/status.png" width="300"><br>
+<img src="sample/sample1_ouput/status.png" width="300"><br>
 Status
 </td>
 </tr>
