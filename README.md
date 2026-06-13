@@ -137,7 +137,7 @@ short_report.pdf
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yerimrim/Chest_X-ray_Image_Quality_Assessment
+git clone https://github.com/yerimrim/Chest_X-ray_Image_Quality_Assessment.git
 cd Chest_X-ray_Image_Quality_Assessment
 ```
 
