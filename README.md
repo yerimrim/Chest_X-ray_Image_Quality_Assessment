@@ -224,14 +224,21 @@ Example chest X-ray images:
 ## Sample Outputs
 
 Generated visualizations:
+### Brightness
+![Sample Image brightness](static/charts/brightness.png)
 
-* ![Sample Image brightness](static/charts/brightness.png)
-* ![Sample_Image_grade](static/charts/grade.png)
-* ![Sample_Image Sharpness](static/charts/sharpness.png)
-* ![Sample_Image_Status](static/charts/status.png)
+### Grade
+![Sample_Image_grade](static/charts/grade.png)
+
+### Sharpness
+![Sample_Image Sharpness](static/charts/sharpness.png)
+
+### Status
+![Sample_Image_Status](static/charts/status.png)
+
 
 Generated report:
-
+### Quality_Report
 * ![quality_report.pdf](sample/sample1_output/quality_report.pdf)
 
 ---
