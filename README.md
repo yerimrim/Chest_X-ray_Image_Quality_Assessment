@@ -207,16 +207,16 @@ http://127.0.0.1:5000
 
 Example chest X-ray images:
 
-#### blurry
+### Blurry Input Image
 ![Sample Image blurry1](sample/sample1_input/blurry1.jpg)
 
-#### bright
+### Bright Input Image
 ![Sample Image bright1](sample/sample1_input/bright1.jpg)
 
-#### dark
+### Dark Input Image
 ![Sample Image dark1](sample/sample1_input/dark1.jpg)
 
-#### clear
+### Clear Input Imgae
 ![Sample Image clear1](sample/sample1_input/clear1.jpeg)
 
 ---
@@ -225,10 +225,10 @@ Example chest X-ray images:
 
 Generated visualizations:
 
-* brightness.png
-* grade.png
-* sharpness.png
-* status.png
+* ![Sample Image brightness](static/charts/brightness.png)
+* ![Sample_Image_grade](static/charts/grade.png)
+* ![Sample_Image Sharpness](static/charts/sharpness.png)
+* ![Sample_Image_Status](static/charts/status.png)
 
 Generated report:
 
